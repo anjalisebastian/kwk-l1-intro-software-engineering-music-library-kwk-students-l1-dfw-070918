@@ -9,8 +9,6 @@ def list_artists
       :andy_grammer => "Honey I'm Good",
       :maroon_five => "Sugar"
   puts list_artists.each_key do 
-    
-    
   end
 end
 # This method should accept a hash as an argument.
