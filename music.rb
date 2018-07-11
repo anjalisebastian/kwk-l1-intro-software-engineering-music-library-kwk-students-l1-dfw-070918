@@ -22,8 +22,7 @@ def list_songs(library)
   puts value
   }
 end
-  
-end
+
   
 # This method should accept a hash as an argument.
 
