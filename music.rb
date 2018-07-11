@@ -10,7 +10,7 @@ def list_artists(library)
       :maroon_five => "Sugar"
      }
  library.each_key {|key|
- key
+ puts key
  }
 end
 # This method should accept a hash as an argument.
