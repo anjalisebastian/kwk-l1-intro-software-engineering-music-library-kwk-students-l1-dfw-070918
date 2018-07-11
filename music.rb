@@ -9,7 +9,9 @@ def list_artists(library)
       :andy_grammer => "Honey I'm Good",
       :maroon_five => "Sugar"
      }
- list_artists.each_key do 
+ library.each_key {|key|
+ key
+ }
 end
 end
 # This method should accept a hash as an argument.
